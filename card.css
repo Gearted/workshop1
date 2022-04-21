@@ -1,0 +1,15 @@
+body {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+.card {
+    margin: 5px;
+    width: 98%;
+    height: 480px;
+    box-shadow: 1px 1px 5px grey;
+    
+}

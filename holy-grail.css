@@ -1,0 +1,41 @@
+header{
+    background-color: blueviolet;
+    background-position: top;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    background-color: aqua;
+    background-position: auto;
+    width: 25%;
+}
+
+.content{
+    display: flex;
+    background-color: rosybrown;
+    background-position: auto;
+    width: 50%;
+}
+
+.Ads{
+    display: flex;
+    background-color: red;
+    background-position: auto;
+    width: 25%;
+}
+
+footer{
+    display: flex;
+    background-color: aquamarine;
+    background-position: bottom;
+    width: 100%;
+    height: 20%;
+}

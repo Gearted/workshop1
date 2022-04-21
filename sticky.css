@@ -1,0 +1,31 @@
+body {
+    min-height: 200vh;
+}
+
+
+nav {
+    border: 1px solid black;
+    box-shadow: 0px 3px #80808075;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+           
+}
